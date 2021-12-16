@@ -4,7 +4,13 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://localhost:5001/api/hero'
+  containerName: "alteregos",
+  apiUrl: "https://localhost:5001/api/hero",
+  appInsights: {
+    instrumentationKey: "e69ae07b-5bce-42f9-90f7-37d1e34f8c90"
+  },
+  storageUrl: "http://127.0.0.1:10000/devstoreaccount1",
+  signalRUrl: "https://localhost:7238/messaging"
 };
 
 /*
